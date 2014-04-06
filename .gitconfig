@@ -1,0 +1,30 @@
+[user]
+	name = Andrius Janauskas
+	email = andrius.janauskas@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+	editor = /usr/local/bin/vim
+[credential]
+	helper = osxkeychain
+[help]
+	autocorrect = 1
+[color]
+	ui = true
+	branch = true
+	diff = true
+	grep = true
+	interactive = true
+	pager = true
+	status = true
+	show-branch = true
+[diff]
+	noprefix = true
+[alias]
+	ci = commit
+	co = checkout
+	d = diff
+	st = status
+	br = branch
+	cp = cherry-pick
+[push]
+	default = current
