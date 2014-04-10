@@ -69,4 +69,8 @@ export PERL_MM_OPT="INSTALL_BASE=/Users/andrius/perl5";
 export PERL5LIB="/Users/andrius/perl5/lib/perl5:$PERL5LIB";
 export PATH="/Users/andrius/perl5/bin:$PATH";
 export PATH="/Applications/Android Studio.app/sdk/tools:/Applications/Android Studio.app/sdk/platform-tools:$PATH"
-export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
+export GRADLE_USER_HOME="/Users/andrius/work-md/gradle-1.11"
+export ANDROID_SDK="/Applications/Android Studio.app/sdk"
+export PATH=$PATH:$GRADLE_HOME/bin
+export GRADLE_OPTS=-Dorg.gradle.daemon=true
